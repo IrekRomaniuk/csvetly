@@ -37,7 +37,6 @@ See code in csv2agg.py and results in json, xml and yml formats
 ```
 pip install -r requirements.txt
 python csv2agg.py data.csv
-```
 ### STDOUT
           min    max       mean
 HOST1   77.85  77.89  77.862500
@@ -72,7 +71,7 @@ HOST29  31.82  41.61  36.365455
 ALL     31.82  99.57  68.546604
 ### JSON
 {"HOST1":{"min":77.85,"max":77.89,"mean":77.8625},"HOST2":{"min":77.69,"max":77.73,"mean":77.7083333333},"HOST3":{"min":77.75,"max":77.79,"mean":77.7741666667},"HOST4":{"min":78.03,"max":78.06,"mean":78.045},"HOST5":{"min":85.92,"max":87.47,"mean":86.8425},"HOST6":{"min":93.28,"max":93.64,"mean":93.495},"HOST7":{"min":96.5,"max":96.83,"mean":96.6829166667},"HOST8":{"min":90.07,"max":92.09,"mean":90.8079166667},"HOST9":{"min":96.1,"max":96.52,"mean":96.3491304348},"HOST10":{"min":99.23,"max":99.57,"mean":99.404},"HOST11":{"min":94.84,"max":94.98,"mean":94.90125},"HOST12":{"min":54.27,"max":54.84,"mean":54.76625},"HOST13":{"min":39.54,"max":40.8,"mean":40.5229166667},"HOST14":{"min":51.16,"max":51.38,"mean":51.2741666667},"HOST15":{"min":81.26,"max":81.3,"mean":81.28875},"HOST16":{"min":85.09,"max":93.46,"mean":92.1025},"HOST17":{"min":60.58,"max":61.2,"mean":61.1695833333},"HOST18":{"min":79.35,"max":97.42,"mean":82.9829166667},"HOST19":{"min":82.42,"max":83.14,"mean":82.7708333333},"HOST20":{"min":71.12,"max":73.03,"mean":71.9241666667},"HOST21":{"min":54.34,"max":61.11,"mean":57.6916666667},"HOST22":{"min":57.55,"max":61.31,"mean":59.9829166667},"HOST23":{"min":35.76,"max":41.91,"mean":37.3520833333},"HOST24":{"min":33.64,"max":40.69,"mean":36.76},"HOST25":{"min":32.32,"max":45.79,"mean":36.95625},"HOST26":{"min":41.43,"max":46.13,"mean":43.36375},"HOST27":{"min":43.53,"max":47.21,"mean":45.06625},"HOST28":{"min":43.23,"max":49.01,"mean":45.6383333333},"HOST29":{"min":31.82,"max":41.61,"mean":36.3654545455},"ALL":{"min":31.82,"max":99.57,"mean":68.5466035051}}
-###YAML
+### YML
 - index: HOST1
   max: 77.89
   mean: 77.8625
@@ -194,7 +193,7 @@ ALL     31.82  99.57  68.546604
   mean: 68.54660350506565
   min: 31.82
 
-### YML
+### XML
 <?xml version='1.0' encoding='utf-8'?>
 <data>
   <row>
@@ -378,3 +377,4 @@ ALL     31.82  99.57  68.546604
     <mean>68.54660350506565</mean>
   </row>
 </data>
+```

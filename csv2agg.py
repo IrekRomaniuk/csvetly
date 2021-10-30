@@ -28,10 +28,10 @@ result_yaml = yaml.dump(
     default_flow_style=False)  
 with open('result.yml', 'w') as file:
     yaml.dump(result.reset_index().to_dict(orient='records'), file, default_flow_style=False)   
-print('###YAML')      
+print('### YML')      
 print(result_yaml)
 
-print('### YML')
+print('### XML') 
 print(result.to_xml())
 with open('result.xml', 'w') as f:  # Writing in XML file
     for line in result.to_xml():
