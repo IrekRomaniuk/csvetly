@@ -32,7 +32,20 @@ You will be allowed full use of the search engine of your choice.
 ## SOLUTION
 
 I used pandas which is powerful, flexible and easy to use open source data analysis and manipulation tool.
-See code in *csv2agg.py*
+See code in *csv2agg.py* and snippet creating fram below
+```
+df = pd.read_csv(sys.argv[1])
+f1=df.filter(regex='host').rename(columns=lambda x: x.split("#")[1]).agg(['min','max','mean']).transpose()
+f2 = pd.DataFrame(
+        {
+        "min": [df.filter(regex='host').rename(columns=lambda x: x.split("#")[1]).min().min()],
+        "max": [df.filter(regex='host').rename(columns=lambda x: x.split("#")[1]).max().max()],
+        "mean": [df.filter(regex='host').rename(columns=lambda x: x.split("#")[1]).mean().mean()],
+        },
+        index=["ALL"],
+   )  
+result = pd.concat([f1, f2])
+```
 
 ## RESULTS
 
