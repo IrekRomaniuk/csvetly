@@ -15,18 +15,23 @@ f2 = pd.DataFrame(
         index=["ALL"],
    )  
 result = pd.concat([f1, f2])
+print('### STDOUT')
 print(result)
 
-result_json = result.to_json(r'result.json',orient='index',)
+result_json = result.to_json(r'result.json',orient='index')
+print('### JSON')
+result_json = result.to_json(orient='index')
 print(result_json)
 
 result_yaml = yaml.dump(
     result.reset_index().to_dict(orient='records'),
     default_flow_style=False)  
 with open('result.yml', 'w') as file:
-    yaml.dump(result.reset_index().to_dict(orient='records'), file, default_flow_style=False)     
+    yaml.dump(result.reset_index().to_dict(orient='records'), file, default_flow_style=False)   
+print('###YAML')      
 print(result_yaml)
 
+print('### YML')
 print(result.to_xml())
 with open('result.xml', 'w') as f:  # Writing in XML file
     for line in result.to_xml():
