@@ -1,0 +1,16 @@
+- index: HOST1
+  max: 100.0
+  mean: 100.0
+  min: 100.0
+- index: HOST2
+  max: 100.0
+  mean: 75.0
+  min: 50.0
+- index: HOST3
+  max: 110.0
+  mean: 60.0
+  min: 10.0
+- index: ALL
+  max: 110.0
+  mean: 78.33333333333333
+  min: 10.0

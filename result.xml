@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data>
+  <row>
+    <index>HOST1</index>
+    <min>100.0</min>
+    <max>100.0</max>
+    <mean>100.0</mean>
+  </row>
+  <row>
+    <index>HOST2</index>
+    <min>50.0</min>
+    <max>100.0</max>
+    <mean>75.0</mean>
+  </row>
+  <row>
+    <index>HOST3</index>
+    <min>10.0</min>
+    <max>110.0</max>
+    <mean>60.0</mean>
+  </row>
+  <row>
+    <index>ALL</index>
+    <min>10.0</min>
+    <max>110.0</max>
+    <mean>78.33333333333333</mean>
+  </row>
+</data>

@@ -30,3 +30,7 @@ These results can be written to external files, for extra credit.
 You will be allowed full use of the search engine of your choice.
 
 ## SOLUTION
+
+```
+pip install -r requirements.txt
+```
