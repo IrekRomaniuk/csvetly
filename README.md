@@ -32,7 +32,7 @@ You will be allowed full use of the search engine of your choice.
 ## SOLUTION
 
 I used pandas which is powerful, flexible and easy to use open source data analysis and manipulation tool.
-See code in csv2agg.py and results in json, xml and yml formats (also files result.*)
+See code in *csv2agg.py* and results in json, xml and yml formats (also files result.*)
 
 ```
 pip install -r requirements.txt
