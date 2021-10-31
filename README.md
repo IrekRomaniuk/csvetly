@@ -32,7 +32,7 @@ You will be allowed full use of the search engine of your choice.
 
 ## SOLUTION
 
-I used python pandas lbrary which is powerful, flexible and easy to use open source data analysis and manipulation tool.
+I used *python pandas* lbrary which is powerful, flexible and easy to use open source data analysis and manipulation tool.
 See code in *csv2agg.py* and snippet creating frame below. Last row provides minimum, maximim andaverag value for all results.
 ```
 df = pd.read_csv(sys.argv[1])
@@ -47,7 +47,7 @@ f2 = pd.DataFrame(
    )  
 result = pd.concat([f1, f2])
 ```
-Also pyyaml and lxml libraries are used to convert frames to yml andxml formats
+Also *pyyaml* and *lxml* libraries are used to convert frames to yml andxml formats
 
 ## RESULTS
 
