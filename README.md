@@ -25,6 +25,7 @@ Data for your results should be stored in a result format which you can utilize 
 - XML
 - JSON
 - YAML
+
 These results can be written to external files, for extra credit.
 
 You will be allowed full use of the search engine of your choice.
