@@ -22,9 +22,9 @@ Additionally, generate the following aggregated values:
 
 Data for your results should be stored in a result format which you can utilize to output your results to STDOUT. Optionally, we'd like for you also to provide formatted output for some of the following options:
 
-XML
-JSON
-YAML
+- XML
+- JSON
+- YAML
 These results can be written to external files, for extra credit.
 
 You will be allowed full use of the search engine of your choice.
