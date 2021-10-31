@@ -51,7 +51,7 @@ Also *pyyaml* and *lxml* libraries are used to convert frames to yml andxml form
 
 ## RESULTS
 
-See results in json, xml and yml formats TO STDOUT (also in files result.*)
+See results in json, xml and yml formats to STDOUT (also in files result.*)
 
 ```
 pip install -r requirements.txt
