@@ -32,7 +32,7 @@ You will be allowed full use of the search engine of your choice.
 ## SOLUTION
 
 I used pandas which is powerful, flexible and easy to use open source data analysis and manipulation tool.
-See code in *csv2agg.py* and snippet creating frame below
+See code in *csv2agg.py* and snippet creating frame below. Last row provides minimum, maximim andaverag value for all results.
 ```
 df = pd.read_csv(sys.argv[1])
 f1=df.filter(regex='host').rename(columns=lambda x: x.split("#")[1]).agg(['min','max','mean']).transpose()
@@ -49,7 +49,7 @@ result = pd.concat([f1, f2])
 
 ## RESULTS
 
-See results in json, xml and yml formats (also files result.*)
+See results in json, xml and yml formats TO STDOUT (also in files result.*)
 
 ```
 pip install -r requirements.txt
