@@ -47,7 +47,7 @@ f2 = pd.DataFrame(
    )  
 result = pd.concat([f1, f2])
 ```
-Also *pyyaml* and *lxml* libraries are used to convert frames to yml andxml formats
+Also *pyyaml* and *lxml* libraries are used to convert frames to yml and xml formats
 
 ## RESULTS
 
