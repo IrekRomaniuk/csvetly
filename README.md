@@ -47,11 +47,11 @@ f2 = pd.DataFrame(
    )  
 result = pd.concat([f1, f2])
 ```
-Also *pyyaml* and *lxml* libraries are used to convert frames to yml and xml formats
+Also *pyyaml* and *lxml* libraries are used to convert frames to yml and xml formats (per [requirements.txt](https://github.com/IrekRomaniuk/csvetly/blob/master/requirements.txt))
 
 ## RESULTS
 
-See results in json, xml and yml formats to STDOUT (also in files result.*)
+See results in json, xml and yml formats to STDOUT (also in files [result.json](https://github.com/IrekRomaniuk/csvetly/blob/master/result.json), [results.xml](https://github.com/IrekRomaniuk/csvetly/blob/master/result.xml) and [results.yml](https://github.com/IrekRomaniuk/csvetly/blob/master/result.yl))
 
 ```
 pip install -r requirements.txt
