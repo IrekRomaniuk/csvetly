@@ -51,7 +51,7 @@ Also *pyyaml* and *lxml* libraries are used to convert frames to yml and xml for
 
 ## RESULTS
 
-See results in json, xml and yml formats to STDOUT (also in files [result.json](https://github.com/IrekRomaniuk/csvetly/blob/master/result.json), [results.xml](https://github.com/IrekRomaniuk/csvetly/blob/master/result.xml) and [results.yml](https://github.com/IrekRomaniuk/csvetly/blob/master/result.yl))
+See results in json, xml and yml formats to STDOUT (also in files [result.json](https://github.com/IrekRomaniuk/csvetly/blob/master/result.json), [result.xml](https://github.com/IrekRomaniuk/csvetly/blob/master/result.xml) and [result.yml](https://github.com/IrekRomaniuk/csvetly/blob/master/result.yml))
 
 ```
 pip install -r requirements.txt
